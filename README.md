@@ -12,7 +12,15 @@ This Node.js application manages orders for an e-commerce platform using MongoDB
    git clone https://github.com/AshwiniRK/E-Commerce-App.git
    cd your-repository
 
-   
+##  Install Dependencies
+npm install
+## Configuration
+Set Up MongoDB
+Update the MongoDB connection URI in config.js:
+// config.js
+module.exports = {
+  mongoURI: 'mongodb://localhost:27017/your-database-name',
+};
   ## API Endpoints
   ## Add Order
   POST /api/orders
